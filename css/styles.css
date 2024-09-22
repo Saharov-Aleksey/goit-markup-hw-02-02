@@ -1,11 +1,16 @@
 body {
-    font-family: 'Roboto', sans-serif; /* Шрифт для текста */
-    color: #434455; /* Цвет текста */
-    background-color: #FFFFFF; /* Цвет фона */
+  font-family: "Roboto", sans-serif; /* Шрифт для текста */
+  color: #434455; /* Цвет текста */
+  background-color: #ffffff; /* Цвет фона */
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif; /* Шрифт Raleway для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif; /* Шрифт Raleway для заголовков */
 }
 .header {
   display: flex;
@@ -19,8 +24,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5; /* Задаёт цвет текста */
+}
+
+.header__logo-part-white {
   text-decoration: none;
-  color: black;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -29,15 +43,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-}
-
-.header__logo-part-blue {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5; /* Задаёт цвет текста */
 }
 
 .header__nav {
@@ -74,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 322px;
 }
 .header__nav-link:hover,
-.header__nav-link:focus{
-    color: #404bbf; /* Цвет при наведении и фокусе */
+.header__nav-link:focus {
+  color: #404bbf; /* Цвет при наведении и фокусе */
 }
 
 .header__contact-info {
@@ -106,8 +111,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #434455;
 }
 .header__contact-link:hover,
-.header__contact-link:focus{
-    color: #404bbf; /* Цвет при наведении и фокусе */
+.header__contact-link:focus {
+  color: #404bbf; /* Цвет при наведении и фокусе */
 }
 
 .main-content__intro {
@@ -130,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
- line-height: 1.07;
+  line-height: 1.07;
 }
 
 .main-content__button {
@@ -150,13 +155,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-
 }
 .main-content__button:hover,
-.main-content__button:focus{
-    background-color: #404BBF;
+.main-content__button:focus {
+  background-color: #404bbf;
 }
-
 
 .main-content__features {
   margin-top: 50px;
@@ -200,7 +203,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
 }
 
 .main-content__team {
@@ -216,16 +218,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   height: 40px;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
- line-height: 1.11;
- text-transform: capitalize;
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
 .main-content__team-list {
@@ -292,22 +293,20 @@ ul {
 }
 .footer__logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5; /* Задаёт цвет текста */
+}
+.footer__logo_white {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  font-weight: 700;
-  line-height: 1.17;
-  color:  #4d5ae5 ;
-}
-.footer__logo_blue {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd
 }
 .footer__description {
   font-family: "Roboto", sans-serif;
