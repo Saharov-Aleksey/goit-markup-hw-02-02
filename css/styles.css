@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; /* Задаёт цвет текста */
@@ -335,5 +335,3 @@ color: #2e2f42;
     
 }
 
-
-            border-bottom
