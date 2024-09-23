@@ -1,39 +1,31 @@
 body {
-  font-family: "Roboto", sans-serif; /* Шрифт для текста */
-  color: #434455; /* Цвет текста */
-  background-color: #ffffff; /* Цвет фона */
+    font-family: 'Roboto', sans-serif; /* Шрифт для текста */
+    color: #434455; /* Цвет текста */
+    background-color: #FFFFFF; /* Цвет фона */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif; /* Шрифт Raleway для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif; /* Шрифт Raleway для заголовков */
 }
 .header {
-  display: flex;
+  
   justify-content: space-between;
-  align-items: center;
-  height: 72px;
-  padding-left: 156px;
-  padding-right: 156px;
-  border-bottom: 1px solid #e7e9fc;
+ 
   background: #fff;
 }
 
 .header__logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5; /* Задаёт цвет текста */
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5; /* Задаёт цвет текста */
 }
 
 .header__logo-part-white {
+ 
   text-decoration: none;
   margin: 0;
   font-family: "Raleway", sans-serif;
@@ -46,23 +38,20 @@ h6 {
 }
 
 .header__nav {
-  display: flex;
-  gap: 40px;
+  
   margin: 0;
-  height: 24px;
+  
 }
 
 .header__nav-list {
-  display: flex; /* Элементы списка будут расположены горизонтально */
-  gap: 40px; /* Расстояние между пунктами меню */
+  
   margin: 0;
-  padding: 0;
   list-style: none; /* Убираем маркеры списка */
 }
 
 .header__nav-item {
-  height: 24px;
-  width: auto;
+  
+  
 }
 
 .header__nav-link {
@@ -74,32 +63,29 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-left: 40px;
-  position: relative; /* Смещаем относительно исходного положения */
+
   right: 322px;
 }
 .header__nav-link:hover,
-.header__nav-link:focus {
-  color: #404bbf; /* Цвет при наведении и фокусе */
+.header__nav-link:focus{
+    color: #404bbf; /* Цвет при наведении и фокусе */
 }
 
 .header__contact-info {
-  display: flex;
-  align-items: center;
+  
   font-style: normal;
 }
 
 .header__contact-list {
   list-style: none;
-  display: flex;
-  gap: 15px;
-  padding: 0;
+  
+
   margin: 0;
 }
 
 .header__contact-item {
-  display: flex;
-  align-items: center;
+  
+  
 }
 .header__contact-link {
   margin-right: 40px;
@@ -111,21 +97,20 @@ h6 {
   color: #434455;
 }
 .header__contact-link:hover,
-.header__contact-link:focus {
-  color: #404bbf; /* Цвет при наведении и фокусе */
+.header__contact-link:focus{
+    color: #404bbf; /* Цвет при наведении и фокусе */
 }
 
 .main-content__intro {
-  display: flex;
-  flex-direction: column; /* Устанавливаем вертикальное направление */
-  align-items: center; /* Центрируем элементы по горизонтали */
+  
+  
   justify-content: center; /* Центрируем элементы по вертикали */
-  height: 600px; /* Высота контейнера */
+  
   background: #2e2f42;
 }
 
 .main-content__title {
-  display: flex;
+  
   margin-bottom: 10px; /* Отступ между текстом и кнопкой */
   margin-bottom: 48px;
   font-size: 56px; /* Укажите желаемый размер шрифта */
@@ -135,18 +120,16 @@ h6 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  line-height: 1.07;
+ line-height: 1.07;
 }
 
 .main-content__button {
-  display: flex;
+  
   justify-content: center; /* Центрирует текст внутри кнопки */
-  align-items: center; /* Вертикальное выравнивание текста */
+  
   white-space: nowrap; /* Запретить перенос текста на новую строку */
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -155,31 +138,33 @@ h6 {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+
 }
 .main-content__button:hover,
-.main-content__button:focus {
-  background-color: #404bbf;
+.main-content__button:focus{
+    background-color: #404BBF;
 }
+
 
 .main-content__features {
   margin-top: 50px;
-  display: flex;
-  flex-direction: column; /* Заголовок сверху, а элементы под ним */
-  align-items: center;
+  
+ 
+  
   margin-bottom: 60px;
-  height: 400px;
+  
 }
 
 .main-content__feature-list {
-  display: flex;
+  
   flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
-  gap: 24px; /* Отступ между колонками, можно настроить */
+  
 }
 
 .main-content__feature-item {
   flex: 1 1 calc(20% - 20px); /* Уменьшите ширину, например, до 20% */
-  box-sizing: border-box; /* Учитывает padding и border в ширину */
-  height: 104px;
+  
+  
 }
 
 .main-content__feature-title {
@@ -193,7 +178,7 @@ h6 {
 }
 
 .main-content__feature-description {
-  width: 300px; /* Установите желаемую ширину */
+  
   line-height: 1.6; /* Увеличьте межстрочный интервал для лучшего восприятия */
   white-space: pre-line; /* Сохраняет переносы строк */
   text-align: left; /* Выравнивание текста по левому краю */
@@ -203,65 +188,59 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
 }
 
 .main-content__team {
   background-color: #f4f4fd; /* Фон для родительского контейнера */
-  height: 732px;
-  display: flex; /* Использует Flexbox */
-  flex-direction: column; /* Вертикальное направление */
+  
+  
+  
   justify-content: center; /* Центрирует контент по вертикали */
-  align-items: center; /* Центрирует контент по горизонтали */
+  
 }
 
 .main-content__subtitle {
   margin-bottom: 100px;
-  display: flex;
-  flex-direction: column;
+  
+  
   text-align: center;
-  height: 40px;
+ 
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  line-height: 1.11;
-  text-transform: capitalize;
+ line-height: 1.11;
+ text-transform: capitalize;
 }
 
 .main-content__team-list {
-  display: flex;
+  
   flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
-  gap: 24px; /* Отступ между колонками */
+
 }
 
 ul {
   list-style-type: none; /* Убирает маркеры */
-  padding: 0; /* Убирает отступы */
+  
   margin: 0; /* Убирает внешние отступы */
 }
 
 .main-content__team-member {
-  position: relative;
   flex: 1 1 calc(15% - 20px); /* Уменьшите ширину */
-  box-sizing: border-box; /* Учитывает padding и border в ширину */
-  border-radius: 8px; /* Закругленные углы */
+  
+  
   min-width: 200px; /* Минимальная ширина */
   min-height: 200px; /* Увеличьте, если нужно */
   overflow: hidden; /* Скрывает переполняющий контент */
   margin: 0; /* Убираем внешний отступ */
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
 .main-content__team-img {
   max-width: 100%; /* Изображение не превышает ширину карточки */
-  height: auto; /* Сохраняет пропорции изображения */
+ 
   background: url("path_to_image");
 }
 
@@ -284,29 +263,29 @@ ul {
 }
 
 .footer {
-  display: flex;
+  
   justify-content: center; /* Центрирует контейнер по горизонтали */
-  padding: 0 156px; /* Отступы по краям контейнера */
-  flex-direction: column; /* Заголовок сверху, а элементы под ним */
-  height: 312px;
+  
+  
+  
   background: #2e2f42;
 }
 .footer__logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5; /* Задаёт цвет текста */
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5; /* Задаёт цвет текста */
 }
-.footer__logo_white {
+.footer__logo_white{
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #f4f4fd
 }
 .footer__description {
   font-family: "Roboto", sans-serif;
@@ -318,3 +297,43 @@ ul {
 a {
   text-decoration: none;
 }
+.portfolio{
+    background-color: #f4f4fd; /* Фон для родительского контейнера */
+  
+    
+}
+
+.portfolio__title{  
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+.portfolio__list{   
+
+}
+.portfolio__item{   
+
+}
+.portfolio__image{   
+
+}
+.portfolio__item-title{   
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio__item-category{  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+
+
+            border-bottom
