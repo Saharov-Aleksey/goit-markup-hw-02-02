@@ -176,7 +176,7 @@ body {
 .main-content__feature-description {
   
   line-height: 1.6; /* Увеличьте межстрочный интервал для лучшего восприятия */
-  white-space: pre-line; /* Сохраняет переносы строк */
+  
   margin: 0 auto; /* Центрирует текст внутри блока */
   font-family: "Roboto", sans-serif;
   font-size: 16px;
